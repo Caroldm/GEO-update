@@ -33,8 +33,7 @@ from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
 fromaddr = "geo.weekly.analysis@gmail.com"
-toaddr = "carol.dmonteiro@gmail.com"
-#toaddr = "maayan.avi@gmail.com"
+toaddr = ""
 msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddr
